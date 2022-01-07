@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #f1f1f9;
+
+}
+
+.header {
+    background-color: white;
+}
+h1 {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+
+    left: 5px;
+
+}
+.logout {
+    position: relative;
+    top: -49px;
+    left: -8px;
+}
+
+.judul {
+    margin: 20px;
+    padding: 35px;
+}
+ .selamat {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   font-size: 40px;
+}
+
+.selamat2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   font-size: 20px;
+}
+
+.row {
+    margin: 100px;
+    padding: 5px;
+
+}
+
+.col {
+    width: 25%;
+
+}
+.card-img-top {
+    width: 100%;
+}
+.logout {
+    float: right;
+}
+
+/*Frame Kedua */
+
+.container {
+    background-color: white;
+    top: -75px;
+    border-radius: 6px;
+    padding: 5px 20px 15px 20px;
+    position: relative;
+}
+
+.text-tengah {
+    margin: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+small {
+color:#f1f1f9
+}
+
+.card-text {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 15px;
+}
+.card-group {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 100px;
+}
+
+.card-img-top-2 {
+    width: 50px;
+    margin: 0 auto;
+    padding-top: 13px
+}
+
+.col-sm-6 {
+    padding: 11px;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 720px) { 
+    h1 {
+        margin-left: 1%;
+        padding: 13px;
+    }
+    .col {
+        width: auto ;
+    }
+    table.table.table-striped {
+        width: 100%;
+    }
+    .container {
+        background-color: white;
+        border-radius: 6px;
+        padding: 5px 20px 15px 20px;
+        position: relative;
+        width: 74%;
+    }
+ }
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) { 
+    .card {
+        position: relative;
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin: 0;
+        padding: 1.5rem 1.5rem;
+        position: relative;
+    }
+    .logout {
+        position: relative;
+        top: -55px;
+    }
+ }
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40 !important;
+    color: white;
+    text-align: center;
+ }
+ .right {
+     margin: 2px;
+ }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
+
+
